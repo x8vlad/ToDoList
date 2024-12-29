@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif; 
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f3f4f6; 
+}
+h1{
+    display: block;
+    text-align: center;
+    width: 160px; 
+    border: 2px solid #1360c9;
+    border-radius: 12px; 
+    background-color: #fff;  
+}
+.block {
+    width: 300px; 
+    border: 2px solid #1360c9; 
+    padding: 20px;
+    border-radius: 12px; 
+    background-color: #fff;  
+}
+
+.block select,
+.block input,
+.block button {
+    display: block; 
+    /* blok - full row str */
+    width: calc(100% - 20px); 
+    margin: 10px auto; 
+    padding: 8px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    font-size: 1em;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease; /*  xD */
+}
+
+.addBtn {
+    background-color: #4ec85e;
+    color: white;
+}
+
+.addBtn:hover {
+    background-color: #3aa447; 
+    transform: scale(1.05);
+}
+
+.deleteBtn {
+    background-color: #db2f2f; 
+    color: white;
+}
+
+.deleteBtn:hover {
+    background-color: #b62626;
+    transform: scale(1.05); 
+}
+
+.result {
+    border-top: 1px solid #ddd; 
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.result li {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+

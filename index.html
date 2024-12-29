@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>To do list</h1>
+    <!-- <h4>Input youre task:</h4> -->
+<div class="block">
+
+    <select id="select">
+        <option name="option" value="order">order list</option>
+        <option name="option" value="unordered">unordered list</option>
+    </select>
+    <button type="submit" onclick="Apply()">Apply</button>
+
+    <input type="text" id="task" placeholder="youre task..">
+
+    <div class="result" id="result" ondblclick="remove()"></div> 
+    
+    <button onclick="Add()" type="submit" class="addBtn">Add task</button>
+    <button onclick="deletes()" type="submit" class="deleteBtn">&times;</button>
+</div>
+    
+<script src="script.js"></script>
+</body>
+</html>
